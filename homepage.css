@@ -1,0 +1,77 @@
+body
+ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f9f9f9;;
+       }
+       .container{
+        background:#fff;
+        width:650px;
+        padding:1.5rem;
+        margin:50px auto;
+        border-radius:10px;
+        border: 2px solid rgb(125,125,235);
+        box-shadow:0 20px 35px rgba(0,0,1,0.9);
+    }
+ form {
+    margin:0.2rem;
+}
+
+.form-title{
+    font-weight:bold;
+    text-align:center;
+    color: rgb(125,125,235);;
+}
+ 
+.links{
+    display:flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; font-weight:bold;
+}
+
+.btn{
+    font-size:1.1rem;
+    padding:8px 0;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    width:100%;
+    background:rgb(125,125,235);
+    color:white;
+    cursor:pointer;
+    transition:0.9s;
+}
+.btn:hover{
+    background:#07001f;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:rgb(125,125,235);
+}
+
+select {
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:rgb(125,125,235);
+}
+
+textarea {
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-color:rgb(125,125,235);
+    border-radius: 5px;
+}
